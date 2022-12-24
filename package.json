@@ -1,0 +1,31 @@
+{
+  "name": "buried",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guokungit/buried.git"
+  },
+  "keywords": [],
+  "files": ["dist"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guokungit/buried/issues"
+  },
+  "homepage": "https://github.com/guokungit/buried#readme",
+  "devDependencies": {
+    "rollup": "^3.8.1",
+    "rollup-plugin-dts": "^5.1.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.4"
+  }
+}
